@@ -13,6 +13,10 @@ int main() {
     string diaMaxChuva;
     string diaMinChuva;
     
+    /*
+    "totalDeChuva", "mediaDeChuva", "maxDeChuva", "minDeChuva", "diaMaxChuva" e "diaMinChuva" 
+    são todas variáveis do tipo inteiro ou string que serão usadas para armazenar informações
+    sobre a quantidade de chuva e os dias da semana com a maior e menor quantidade de chuva.*/
     for (int i = 0; i < 7; i++) {
         cout << "Digite a quantidade de chuva em " << dias[i] << ": ";
         cin >> chuva[i];
